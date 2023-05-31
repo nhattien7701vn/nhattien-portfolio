@@ -1,0 +1,59 @@
+.navContact-container {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 0;
+  transform: translate(-62%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  width: 10rem;
+}
+
+.navContact-container a:hover {
+  animation-name: pushNavOut;
+  animation-duration: 3s;
+}
+
+@keyframes pushNavOut {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(63%);
+  }
+
+  80% {
+    transform: translateX(63%);
+  }
+}
+
+.navContact-container a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.4rem;
+  width: 100%;
+  height: 3.5rem;
+
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  box-shadow: 0 0 2px 2px #2822e4;
+}
+
+.navContact-container span {
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.navContact-container a svg {
+  width: 3rem;
+  height: 3rem;
+  fill: #fff;
+  background-color: transparent;
+}

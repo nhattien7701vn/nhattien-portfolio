@@ -1,0 +1,32 @@
+.navMenu-container {
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  bottom: 0.5rem;
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.4rem 1.5rem;
+  
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  
+  border-radius: 5rem;
+}
+
+.navMenu-icon {
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: transparent;
+}
+.navMenu-icon:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navMenu-icon svg {
+  color: var(--secondary-text-color);
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+}

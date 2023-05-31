@@ -1,0 +1,105 @@
+.about-leftContent img {
+  height: 100%;
+}
+
+.about-rightContent {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.title {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--third-text-color);
+}
+
+.about-introduce {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: var(--fourth-text-color);
+}
+
+.about-description {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: var(--fourth-text-color);
+}
+
+.about-experience {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.about-experience li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.about-experience li h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-text-color);
+  font-size: 3.5rem;
+}
+
+.about-experience li span {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.about-btnContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 14rem;
+  height: 3rem;
+
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  border: solid 2px var(--primary-text-color);
+  cursor: pointer;
+}
+
+.about-btnContact p {
+  background-color: transparent;
+}
+
+.about-btnContact svg {
+  background-color: transparent;
+}
+
+.about-btnContact:hover {
+  box-shadow: 0 0 1px 1px #fff;
+}
+
+.about-btnContact:hover svg {
+  animation: phoneRing 0.2s infinite;
+
+}
+
+@keyframes phoneRing {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}

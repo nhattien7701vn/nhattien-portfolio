@@ -1,0 +1,64 @@
+.section.experience {
+  flex-direction: column;
+}
+
+.section.experience h1 {
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  color: var(--third-text-color);
+}
+
+.section.experience p {
+  margin: 0 auto;
+  font-size: 1rem;
+  color: var(--fourth-text-color);
+}
+
+.experience-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-top: 2rem;
+}
+
+.experience-knowledge {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 30%;
+
+  padding: 1rem;
+
+  color: var(--third-text-color);
+  background-color: var(--third-color);
+  border-radius: 15px;
+}
+
+.experience-title {
+  margin-bottom: 1rem;
+  max-width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.experience-skill {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+.experience-skill article{
+  flex: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-skill article span {
+  font-size: 1.5rem;
+}
