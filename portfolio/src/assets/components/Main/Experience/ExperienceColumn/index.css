@@ -8,8 +8,10 @@
 
   width: 23%;
   height: 0;
-  background-color: black;
-  transition: 2s;
+
+  box-shadow: 0 0 4px 1px #747373;
+  background-color: var(--secondary-color);
+  transition: 1s;
 }
 
 .experience-columnTitle {
@@ -23,5 +25,5 @@
 }
 
 .experience-board.showBoard .experience-column {
-  height: --column-value;
+  height: var(--column-value);
 }

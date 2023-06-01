@@ -102,15 +102,16 @@
   display: flex;
   gap: 1rem;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(66, 66, 66);
+  width: 0%;
+  height: 0%;
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
 }
 
 .showBoard {
+  display: flex;
+  width: 100%;
+  height: 100%;
   opacity: 1;
   visibility: visible;
 }

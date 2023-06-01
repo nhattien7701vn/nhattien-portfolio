@@ -11,7 +11,9 @@ const Experience = () => {
       <p>What knowledge I've learnt</p>
       <div className="experience-content">
 
-        <article className="experience-knowledge">
+        <article
+          onMouseEnter={() => { setContentHover("isFE") }}
+          className="experience-knowledge">
           <span className='experience-title'>Frontend Developer</span>
           <div className="experience-skill">
             <article>
@@ -41,7 +43,9 @@ const Experience = () => {
           </div>
         </article>
 
-        <article className="experience-knowledge">
+        <article
+          onMouseEnter={() => { setContentHover("isBE") }}
+          className="experience-knowledge">
           <span className='experience-title'>Backend Developer</span>
           <div className="experience-skill">
             <article>
@@ -55,7 +59,8 @@ const Experience = () => {
           </div>
         </article>
 
-        <article className="experience-knowledge">
+        <article
+          onMouseEnter={() => { setContentHover("isMP") }} className="experience-knowledge">
           <span className='experience-title'>Manage Project</span>
           <div className="experience-skill">
             <article>
@@ -83,27 +88,57 @@ const Experience = () => {
         <div className={`experience-board ${contentHover === "isFE" ? "showBoard" : ""}`}>
           <ExperienceColumn
             columnTitle="HTML"
-            columnValue="100%"
+            columnValue="70%"
           />
           <ExperienceColumn
             columnTitle="CSS"
-            columnValue="100%"
+            columnValue="70%"
           />
           <ExperienceColumn
             columnTitle="JavaScript"
-            columnValue="100%"
+            columnValue="60%"
           />
           <ExperienceColumn
             columnTitle="Axios"
-            columnValue="100%"
+            columnValue="70%"
           />
           <ExperienceColumn
             columnTitle="VITE"
-            columnValue="100%"
+            columnValue="70%"
           />
           <ExperienceColumn
             columnTitle="React"
-            columnValue="100%"
+            columnValue="75%"
+          />
+        </div>
+
+        <div className={`experience-board ${contentHover === "isBE" ? "showBoard" : ""}`}>
+          <ExperienceColumn
+            columnTitle="Node"
+            columnValue="30%"
+          />
+          <ExperienceColumn
+            columnTitle="NestJS"
+            columnValue="10%"
+          />
+        </div>
+
+        <div className={`experience-board ${contentHover === "isMP" ? "showBoard" : ""}`}>
+          <ExperienceColumn
+            columnTitle="GitHub"
+            columnValue="60%"
+          />
+          <ExperienceColumn
+            columnTitle="Trello"
+            columnValue="70%"
+          />
+          <ExperienceColumn
+            columnTitle="Miro"
+            columnValue="20%"
+          />
+          <ExperienceColumn
+            columnTitle="Jira"
+            columnValue="70%"
           />
         </div>
 
