@@ -4,15 +4,15 @@ const Header = () => {
   return (
     <header className='header'>
       <div className="header-container">
-        <p className='header-name'>Nhat Tien</p>
-        <ul className='header-menu'>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Project</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+        <p className='header-name'>Tien Hoang</p>
+        <nav className='header-menu'>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Experience</a>
+          <a href="">Service</a>
+          <a href="">Project</a>
+          <a href="">Contact</a>
+        </nav>
       </div>
     </header>
   )

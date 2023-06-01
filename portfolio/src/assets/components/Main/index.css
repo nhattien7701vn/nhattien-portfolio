@@ -1,0 +1,10 @@
+.section {
+  display: flex;
+  padding-top: 5rem;
+  margin: 2rem auto;
+
+  width: 80%;
+  height: 97vh;
+
+  overflow: hidden;
+}

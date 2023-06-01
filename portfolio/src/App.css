@@ -2,22 +2,27 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--primary-color);
+  scroll-behavior: smooth;
+
 }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --primary-color: #081b28;
   --secondary-color: #00a1e0;
+  --third-color: #102a3c;
   --primary-text-color: #dcf9fc;
   --secondary-text-color: #048399;
   --third-text-color: #dfdfdf;
   --fourth-text-color: #828586;
-} 
+  background-color: var(--primary-color);
+
+}
 
 .container {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }

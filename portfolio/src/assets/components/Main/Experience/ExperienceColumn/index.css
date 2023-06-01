@@ -1,0 +1,29 @@
+:root {
+  --column-value: 50%
+}
+
+.experience-column {
+  position: relative;
+  align-self: flex-end;
+
+  width: 23%;
+  height: 0;
+
+  box-shadow: 0 0 4px 1px #747373;
+  background-color: var(--secondary-color);
+  transition: 1s;
+}
+
+.experience-columnTitle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.experience-board.showBoard .experience-column {
+  height: var(--column-value);
+}
