@@ -1,16 +1,15 @@
 .section.experience {
   flex-direction: column;
+  align-items: center;
 }
 
 .section.experience h1 {
-  margin: 0 auto;
   margin-bottom: 0.5rem;
   font-size: 3rem;
   color: var(--third-text-color);
 }
 
 .section.experience p {
-  margin: 0 auto;
   font-size: 1rem;
   color: var(--fourth-text-color);
 }
@@ -21,21 +20,27 @@
   justify-content: center;
   gap: 1rem;
 
-  margin-top: 2rem;
+  max-width: 100%;
+  flex-grow: 1;
+  margin: 2rem 0;
 }
 
 .experience-knowledge {
   display: flex;
-
   flex-direction: column;
   align-items: center;
-  flex-basis: 30%;
 
   padding: 1rem;
+  flex-basis: 30%;
 
   color: var(--third-text-color);
   background-color: var(--third-color);
   border-radius: 15px;
+  border: solid 2px var(--secondary-color);
+}
+
+.experience-knowledge:hover {
+  box-shadow: 0 0 3px 4px var(--secondary-color);
 }
 
 .experience-title {
@@ -49,11 +54,13 @@
 .experience-skill {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5rem;
 
   width: 100%;
 }
-.experience-skill article{
-  flex: 34%;
+
+.experience-skill article {
+  flex: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,4 +68,49 @@
 
 .experience-skill article span {
   font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.experience-skill article svg {
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+}
+
+.experience-knowledgeBoard {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  width: 70%;
+  max-height: 100%;
+
+  color: var(--third-text-color);
+  background-color: var(--third-color);
+  border-radius: 15px;
+  border: solid 2px var(--secondary-color);
+}
+
+.experience-knowledgeBoard h2 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.experience-board {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(66, 66, 66);
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+}
+
+.showBoard {
+  opacity: 1;
+  visibility: visible;
 }
