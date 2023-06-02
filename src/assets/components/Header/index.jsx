@@ -6,12 +6,12 @@ const Header = () => {
       <div className="header-container">
         <p className='header-name'>Tien Hoang</p>
         <nav className='header-menu'>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Experience</a>
-          <a href="">Service</a>
-          <a href="">Project</a>
-          <a href="">Contact</a>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#service">Service</a>
+          <a href="#project">Project</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
