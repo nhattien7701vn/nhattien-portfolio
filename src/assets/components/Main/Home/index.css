@@ -39,10 +39,10 @@
 .home-button {
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
+  gap: 10%;
   margin-top: 1.5rem;
 
-  width: 60%;
+  width: 100%;
 }
 
 .home-button button {
