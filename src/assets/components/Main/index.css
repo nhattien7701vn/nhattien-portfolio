@@ -8,3 +8,11 @@
 
   overflow: hidden;
 }
+
+.sectionTitle {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: var(--primary-font-size);
+  font-weight: bold;
+  color: var(--third-text-color);
+}

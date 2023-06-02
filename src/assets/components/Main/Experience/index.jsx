@@ -7,7 +7,7 @@ const Experience = () => {
   const [contentHover, setContentHover] = useState("isFE")
   return (
     <section className='section experience' id='experience'>
-      <h1>My Experience</h1>
+      <h1 className='sectionTitle'>My Experience</h1>
       <p>What knowledge I've learnt</p>
       <div className="experience-content">
 

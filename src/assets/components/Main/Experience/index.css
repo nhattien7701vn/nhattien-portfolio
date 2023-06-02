@@ -5,12 +5,10 @@
 
 .section.experience h1 {
   margin-bottom: 0.5rem;
-  font-size: 3rem;
-  color: var(--third-text-color);
 }
 
 .section.experience p {
-  font-size: 1rem;
+  font-size: var(--fifth-font-size);
   color: var(--fourth-text-color);
 }
 
@@ -46,7 +44,7 @@
 .experience-title {
   margin-bottom: 1rem;
   max-width: 100%;
-  font-size: 2rem;
+  font-size: var(--secondary-font-size);
   font-weight: bold;
   background-color: transparent;
 }
@@ -67,7 +65,7 @@
 }
 
 .experience-skill article span {
-  font-size: 1.5rem;
+  font-size: var(--third-font-size);
   font-weight: 500;
 }
 
@@ -94,7 +92,7 @@
 }
 
 .experience-knowledgeBoard h2 {
-  font-size: 2rem;
+  font-size: var(--secondary-font-size);
   margin-bottom: 4rem;
 }
 

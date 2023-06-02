@@ -7,26 +7,20 @@
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10rem;
+  margin-left: 7%;
 }
 
-.title {
-  margin-bottom: 3rem;
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: var(--third-text-color);
-}
+
 
 .about-introduce {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: var(--third-font-size);
   color: var(--fourth-text-color);
 }
 
 .about-description {
   margin-bottom: 2rem;
-  font-size: 1.2rem;
+  font-size: var(--fourth-font-size);
   color: var(--fourth-text-color);
 }
 
@@ -35,7 +29,7 @@
   margin: 0 auto;
   width: 80%;
   list-style: none;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 .about-experience li {
@@ -53,7 +47,7 @@
 
 .about-experience li span {
   color: var(--primary-text-color);
-  font-size: 1.5rem;
+  font-size: var(--third-font-size);
   text-align: center;
 }
 
@@ -68,7 +62,7 @@
   margin: 0 auto;
   background-color: var(--secondary-color);
   color: var(--primary-text-color);
-  font-size: 1.5rem;
+  font-size: var(--third-font-size);
   border-radius: 5rem;
   border: solid 2px var(--primary-text-color);
   cursor: pointer;

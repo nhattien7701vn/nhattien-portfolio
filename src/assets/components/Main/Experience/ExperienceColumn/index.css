@@ -20,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -100%);
 
-  font-size: 1.3rem;
+  font-size: var(--fourth-font-size);
   font-weight: 500;
 }
 
