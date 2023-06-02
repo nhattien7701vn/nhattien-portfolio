@@ -9,7 +9,7 @@ const About = () => {
         <img src="/testt.jpg" alt="" />
       </div>
       <div className='about-rightContent'>
-        <h1 className='about title'>About me</h1>
+        <h1 className='about sectionTitle'>About me</h1>
         <p className='about-introduce'>Im's a Front-End Developer, learning at Information Technology University (UIT) - VietNam National University (VNU)</p>
         <p className='about-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fuga voluptas, dicta aliquid omnis corrupti illo in aspernatur totam laudantium!</p>
         <ul className='about-experience'>

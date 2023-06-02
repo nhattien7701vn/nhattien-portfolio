@@ -4,7 +4,7 @@
 
 .home-leftContent {
   max-width: 55%;
-  padding-right: 10rem;
+  padding-right: 5%;
 }
 
 .home-name {
@@ -18,11 +18,11 @@
   margin-bottom: 2rem;
 
   color: var(--secondary-text-color);
-  font-size: 2rem;
+  font-size: var(--secondary-font-size);
 }
 
 .home-introduce {
-  font-size: 1.2rem;
+  font-size: var(--fourth-font-size);
   color: var(--fourth-text-color);
 }
 
@@ -52,7 +52,7 @@
   z-index: 1;
 
 
-  font-size: 1.3rem;
+  font-size: var(--fourth-font-size);
   font-weight: bold;
 
   border-radius: 10px;

@@ -16,7 +16,11 @@
   --third-text-color: #dfdfdf;
   --fourth-text-color: #828586;
   background-color: var(--primary-color);
-
+  --primary-font-size: 2.5rem;
+  --secondary-font-size: 2rem;
+  --third-font-size: 1.5rem;
+  --fourth-font-size: 1.3rem;
+  --fifth-font-size: 1rem;
 }
 
 .container {
