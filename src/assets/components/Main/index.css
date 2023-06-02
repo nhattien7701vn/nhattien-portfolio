@@ -16,3 +16,9 @@
   font-weight: bold;
   color: var(--third-text-color);
 }
+
+@media (max-width: 1360px) {
+  .section {
+    width: 90%;
+  }
+}
