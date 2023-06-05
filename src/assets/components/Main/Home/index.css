@@ -41,7 +41,7 @@
   display: flex;
   gap: 10%;
   margin-top: 1.5rem;
-  
+
   width: 100%;
 }
 
@@ -142,7 +142,7 @@
 }
 
 @media (max-width: 1825px) {
-  .home-leftContent{
+  .home-leftContent {
     max-width: 45%;
   }
 }
@@ -158,6 +158,8 @@
 }
 
 @media (max-width: 800px) {
+  .section .home {}
+
   .home-leftContent {
     max-width: 100%;
     text-align: center;
