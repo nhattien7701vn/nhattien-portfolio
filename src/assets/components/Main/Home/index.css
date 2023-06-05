@@ -127,7 +127,9 @@
   height: 100%;
 }
 
-@media screen and (min-width: 0px) {
+
+/* Reponsive dang lam */
+/* @media screen and (min-width: 0px) {
   .home-leftContent {
     max-width: 100%;
     padding: 0;
@@ -154,4 +156,4 @@
   .home-rightContent {
     max-width: 50%;
   }
-}
+} */

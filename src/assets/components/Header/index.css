@@ -84,7 +84,9 @@
   }
 }
 
-@media screen and (min-width: 290px) {
+/* Reponsive dang lam do */
+
+/* @media screen and (min-width: 290px) {
 
 }
 
@@ -102,4 +104,4 @@
   .header-btnMenu {
     display: none;
   }
-}
+} */
