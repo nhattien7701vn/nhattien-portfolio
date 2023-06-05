@@ -158,8 +158,6 @@
 }
 
 @media (max-width: 800px) {
-  .section .home {}
-
   .home-leftContent {
     max-width: 100%;
     text-align: center;

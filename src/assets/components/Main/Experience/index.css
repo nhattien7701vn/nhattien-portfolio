@@ -3,9 +3,6 @@
   align-items: center;
 }
 
-.section.experience h1 {
-  margin-bottom: 0.5rem;
-}
 
 .section.experience p {
   font-size: var(--fifth-font-size);
