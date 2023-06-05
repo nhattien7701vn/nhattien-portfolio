@@ -66,14 +66,6 @@
 
 @media screen and (min-width: 0) {
   .header {
-    z-index: -999;
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-@media screen and (min-width: 290px) {
-  .header {
     opacity: 1;
     visibility: visible;
     z-index: 999;
@@ -91,10 +83,22 @@
     width: 90%;
   }
 }
+
+@media screen and (min-width: 290px) {
+
+}
+
 @media screen and (min-width: 990px) {
-  .header-menu{
+  .header-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .header-menu {
     display: flex;
   }
+
   .header-btnMenu {
     display: none;
   }
