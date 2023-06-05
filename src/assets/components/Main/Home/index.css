@@ -29,12 +29,11 @@
 }
 
 .home-rightContent {
-  max-width: 45%;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .home-personalPicture {
-  height: 100%;
+  width: 100%;
 }
 
 .home-button {
@@ -42,7 +41,7 @@
   display: flex;
   gap: 10%;
   margin-top: 1.5rem;
-
+  
   width: 100%;
 }
 
@@ -127,33 +126,57 @@
   height: 100%;
 }
 
-
-/* Reponsive dang lam */
-/* @media screen and (min-width: 0px) {
-  .home-leftContent {
-    max-width: 100%;
-    padding: 0;
-  }
-
+@media (max-width: 1360px) {
   .home-name {
-    margin-bottom: 0.3rem;
-    font-size: calc(5rem*0.5);
+    font-size: calc(5rem*0.8);
+    margin-bottom: 0.5rem;
   }
 
   .home-position {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-button {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1825px) {
+  .home-leftContent{
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .home-name {
+    font-size: calc(5rem*0.6);
   }
 
   .home-button {
     margin-top: 0.5rem;
   }
+}
 
-  .section.home {
-    align-items: normal;
-    flex-direction: column;
+@media (max-width: 800px) {
+  .home-leftContent {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .home-button {
+    justify-content: space-between;
+    width: 100%;
+    margin: 1.5rem 0;
   }
 
   .home-rightContent {
-    max-width: 50%;
+    width: 80%;
+    max-height: 65%;
+    text-align: center;
   }
-} */
+
+  .home-personalPicture {
+    align-self: center;
+  }
+
+}
