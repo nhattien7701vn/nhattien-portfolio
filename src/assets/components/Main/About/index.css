@@ -138,6 +138,10 @@
 }
 
 @media (max-width: 800px) {
+  .section.about {
+    height: auto;
+  }
+
   .about-leftContent {
     max-width: 55%;
     margin-bottom: 1rem;
@@ -166,4 +170,5 @@
   .about-experience li {
     margin-bottom: 1.5rem;
   }
+
 }
