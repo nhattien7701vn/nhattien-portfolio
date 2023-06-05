@@ -10,18 +10,26 @@
 }
 
 .sectionTitle {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
   font-size: var(--primary-font-size);
   font-weight: bold;
   color: var(--third-text-color);
 }
 
-
-/* @media (min-width: 0) {
+@media (max-width: 1360px) {
   .section {
-    display: block;
     width: 90%;
-    padding-top: 4rem;
   }
-} */
+}
+
+@media (max-width: 800px) {
+  .section {
+    flex-direction: column;
+    padding-top: 4rem;
+    align-items: center;
+  }
+  .sectionTitle{
+    margin-bottom: 0.5rem;
+  }
+}
