@@ -14,6 +14,8 @@
   color: var(--primary-text-color);
 }
 
+
+
 .home-position {
   margin-bottom: 2rem;
 
@@ -29,7 +31,6 @@
 .home-rightContent {
   max-width: 45%;
   flex-shrink: 0;
-
 }
 
 .home-personalPicture {
@@ -124,4 +125,33 @@
 .btn-letsTalk:hover::before {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (min-width: 0px) {
+  .home-leftContent {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .home-name {
+    margin-bottom: 0.3rem;
+    font-size: calc(5rem*0.5);
+  }
+
+  .home-position {
+    margin-bottom: 0.5rem;
+  }
+
+  .home-button {
+    margin-top: 0.5rem;
+  }
+
+  .section.home {
+    align-items: normal;
+    flex-direction: column;
+  }
+
+  .home-rightContent {
+    max-width: 50%;
+  }
 }

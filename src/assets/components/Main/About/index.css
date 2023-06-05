@@ -1,3 +1,7 @@
+.about-leftContent {
+  width: 60%;
+}
+
 .about-leftContent img {
   height: 100%;
 }
@@ -9,8 +13,6 @@
   justify-content: center;
   margin-left: 7%;
 }
-
-
 
 .about-introduce {
   margin-bottom: 2rem;
@@ -27,9 +29,9 @@
 .about-experience {
   display: flex;
   margin: 0 auto;
+  justify-content: space-between;
   width: 80%;
   list-style: none;
-  gap: 2rem;
 }
 
 .about-experience li {
@@ -96,5 +98,18 @@
 
   100% {
     transform: rotate(-30deg);
+  }
+}
+
+@media screen and (min-width: 0) {
+  .about-experience li h2 {
+    font-size: calc(3.5rem * 0.6)
+  }
+}
+
+
+@media (max-width: 1360px) {
+  .about-experience li h2 {
+    font-size: calc(3.5rem * 0.7)
   }
 }

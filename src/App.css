@@ -30,3 +30,20 @@
   margin: 0 auto;
   scroll-behavior: smooth;
 }
+
+
+@media screen and (min-width: 0) {
+  :root {
+    --primary-font-size: calc(2.5rem*0.6);
+    --secondary-font-size: calc(2rem*0.6);
+    --third-font-size: calc(1.5rem*0.6);
+    --fourth-font-size: calc(1.3rem*0.6);
+    --fifth-font-size: calc(1rem*0.6);
+  }
+
+  .about-experience li h2 {
+    font-size: calc(3.5rem * 0.6)
+  }
+}
+
+@media (max-width: 1360px) {}

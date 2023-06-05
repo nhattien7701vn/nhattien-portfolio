@@ -57,3 +57,20 @@
   fill: #fff;
   background-color: transparent;
 }
+
+@media screen and (min-width: 0) {
+  .navContact-container {
+    z-index: -999;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .navContact-container {
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+  }
+
+}
