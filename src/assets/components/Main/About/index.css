@@ -129,8 +129,7 @@
 
 @media (max-width: 900px) {
   .section.about {
-    gap: 2%;
-    height: 130vh;
+    gap: 3%;
   }
 
   .about-experience li h2 {
@@ -139,10 +138,9 @@
 }
 
 @media (max-width: 800px) {
-
-
   .about-leftContent {
-    max-width: 80%;
+    max-width: 55%;
+    margin-bottom: 1rem;
   }
 
   .about-rightContent {
@@ -162,10 +160,10 @@
   }
 
   .about-experience li h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
   }
 
   .about-experience li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
   }
 }
