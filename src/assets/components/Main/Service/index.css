@@ -6,7 +6,7 @@
 .service-descr {
   font-size: var(--fifth-font-size);
   color: var(--fourth-text-color);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .service-board {
@@ -20,8 +20,10 @@
   overflow: hidden;
 }
 
-.service-offerContainer{
+.service-offerContainer {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 1rem;
   width: 100%;
   justify-content: space-between;
@@ -57,6 +59,7 @@
   width: 100%;
   padding: 2rem 0;
 
+  font-size: var(--secondary-font-size);
   text-align: center;
   background-color: var(--secondary-color);
   color: var(--third-text-color);
@@ -68,7 +71,7 @@
   flex-direction: column;
   gap: 1rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 0;
 
   width: 90%;
 
@@ -156,4 +159,28 @@
   stroke: var(--secondary-color);
   fill: var(--secondary-color);
   animation: changeColorPoint 0.3s infinite;
+}
+
+@media (max-width: 1180px) {
+  .section.service {
+    height: auto;
+  }
+
+  .service-board {
+    flex-basis: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .section.service {
+    height: auto;
+  }
+
+  .service-offerContainer {
+    justify-content: center;
+  }
+
+  .service-board {
+    flex-basis: 85%;
+  }
 }
