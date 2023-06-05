@@ -32,7 +32,7 @@
 }
 
 
-@media screen and (min-width: 0) {
+/* @media screen and (min-width: 0) {
   :root {
     --primary-font-size: calc(2.5rem*0.6);
     --secondary-font-size: calc(2rem*0.6);
@@ -46,4 +46,4 @@
   }
 }
 
-@media (max-width: 1360px) {}
+@media (max-width: 1360px) {} */

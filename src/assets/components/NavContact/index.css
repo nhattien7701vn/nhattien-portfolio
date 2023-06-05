@@ -58,7 +58,7 @@
   background-color: transparent;
 }
 
-@media screen and (min-width: 0) {
+/* @media screen and (min-width: 0) {
   .navContact-container {
     z-index: -999;
     opacity: 0;
@@ -73,4 +73,4 @@
     z-index: 999;
   }
 
-}
+} */

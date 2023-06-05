@@ -32,7 +32,7 @@
   height: 1.5rem;
 }
 
-@media screen and (min-width: 0px) {
+/* @media screen and (min-width: 0px) {
   .navMenu-icon svg {
     width: 1rem;
     height: 1rem;
@@ -46,4 +46,4 @@
   .navMenu-icon {
     padding: 0.7rem;
   }
-}
+} */
