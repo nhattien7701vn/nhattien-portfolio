@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+.description {
+  font-size: var(--fifth-font-size);
+  color: var(--fourth-text-color);
+  margin-bottom: 1rem;
+}
+
 .sectionTitle {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
@@ -29,7 +35,8 @@
     padding-top: 4rem;
     align-items: center;
   }
-  .sectionTitle{
+
+  .sectionTitle {
     margin-bottom: 0.5rem;
   }
 }

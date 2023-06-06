@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <section className='section experience' id='experience'>
       <h1 className='sectionTitle'>My Experience</h1>
-      <p>What knowledge I've learnt</p>
+      <p className='experience description'>What knowledge I've learnt</p>
       <div className="experience-content">
 
         <article
