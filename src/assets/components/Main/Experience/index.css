@@ -4,10 +4,7 @@
 }
 
 
-.section.experience p {
-  font-size: var(--fifth-font-size);
-  color: var(--fourth-text-color);
-}
+
 
 .experience-content {
   display: flex;
